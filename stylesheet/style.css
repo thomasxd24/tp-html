@@ -105,6 +105,34 @@ aside {
 }
 
 
+input[type=text] {
+    width:50%;
+    margin-right: auto;
+    display: block;
+    padding: 0;
+    height: 30px;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+    color: black;
+}
+
+textarea{
+    width:50%;
+    margin-right: auto;
+    display: block;
+    padding: 0;
+    height: 150px;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+    color: black;
+}
+
 .nav-right {
     float: right;
     /*font-family:'harry';*/

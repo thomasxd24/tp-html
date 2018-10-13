@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
 	<title>Fédération Magique Française de Quidditch</title>
