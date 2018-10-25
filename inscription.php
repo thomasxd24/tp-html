@@ -51,8 +51,7 @@ include('partials/header.php');
 		</p>
 		<p>
 			<label>Votre message</label>
-			<textarea type="text" name="message">
-			</textarea>
+			<textarea type="text" name="message"></textarea>
 		</p>
 		<p>
 			<button type="submit" name="submit" class="lien" >Envoyer l'inscription</button>

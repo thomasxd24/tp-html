@@ -3,8 +3,8 @@
     src: url(font/Akrobat-Regular.otf);
 }
 
-.body {
-	font-family: 'akrobat', sans-serif !important;
+body {
+	font-family: Nunito, sans-serif !important;
 	
 }
 
@@ -31,7 +31,7 @@
 	color: #212121;
 }
 
-.masthead {
+.mainhead {
 	position: relative;
 	width: 100%;
 	height: auto;
@@ -42,4 +42,9 @@
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
+	height: 100vh;
+}
+.title {
+	padding-top: 10rem;
+	background-color: #161616
 }

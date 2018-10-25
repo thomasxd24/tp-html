@@ -2,13 +2,15 @@
 <?php
 include('partials/header.php');
 ?>
-	<img width='100%' src="banner.png">
+
+	
 	<div class="content">
+	<img width='100%' src="banner.png">
 		<section>
 			<h2>Tarifs</h2>
 			<article>
 				<div class="center" >
-			<table class="table">
+			<table class="tabletarif">
 				<tr>
 					<th></th>
 					<th>Balais</th>
