@@ -1,9 +1,10 @@
 <?php
 include('partials/header.php');
 ?>
+<header class="masthead1">
 
+</header>
 <div class="content">
-	<img width='100%' src="banner.png">
 	<form action="sendinscription.php" method="POST">
 		<p>
 			<label>Votre Nom</label>

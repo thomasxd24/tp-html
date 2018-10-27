@@ -13,9 +13,10 @@ include('partials/header.php');
 	</a>
 	
 </div>
+<header class="masthead1">
 
+</header>
 <div class="content">
-	<img width='100%' src="banner.png">
 	<div class="main">
 		
 	<div class="description">

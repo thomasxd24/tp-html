@@ -37,14 +37,54 @@ body {
 	height: auto;
 	min-height: 35rem;
 	padding: 15rem 0;
-	background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("https://www.geoado.com/wp-content/uploads/2014/11/Harry-Potter-Quidditch.jpg");
+	background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("https://i.pinimg.com/originals/13/54/0f/13540f6b15810cec26fb91f0c47f132b.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
 	height: 100vh;
 }
+
+.sidephoto {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 25rem;
+	padding: 15rem 0;
+	background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("https://images.ctfassets.net/bxd3o8b291gf/6OqVmtWM484yQKyOS2kCo0/46164b635747242f025cd926c43da212/RonWeasley_PM_B3C13M1_RonFlyingFireboltAtQuidditchPitchWithHarryWatching_Moment.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 .title {
 	padding-top: 10rem;
-	background-color: #161616
+	background-color: #161616;
+	background-attachment: fixed;
+}
+
+.navbar-brand {
+	font-size: 2rem;
+}
+
+.navbar-nav {
+	font-size: 1.5rem;
+}
+
+
+#carouselExampleIndicators img {
+	width: auto;
+	height: 50vh;
+	max-height: 50vh;
+	object-fit: cover;
+  }
+
+#services {
+	background-color: rgb(240, 95, 64);	
+}
+
+
+.service-box img {
+	width: 64px;
 }

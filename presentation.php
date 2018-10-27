@@ -1,11 +1,11 @@
 <?php
 include('partials/header.php');
 ?>
-<header class="masthead">
+<header class="masthead1">
 
 </header>
 
-<div class="content presentation">
+<div class="content">
 	<section>
 		<h2>Presentation</h2>
 		<p>Le quidditch est le seul sport collectif obligatoirement mixte (avec un maximum de quatre personnes du même genre
@@ -43,9 +43,11 @@ include('partials/header.php');
 			l’attraper avant l’équipe adverse (30 pts). Les attrapeurs/attrapeuses n’ont pas le droit d’agripper le Vif-d’Or par
 			le bras ou les vêtements et ne peuvent pas le plaquer.</p>
 	</section>
-	<header class="masthead1">
+</div>
+	<header class="masthead">
 
 	</header>
+	<div class="content">
 	<section>
 		<p>Seul-e le/la vif-d’or est autorisé-e à user de contacts physiques pour compliquer la tâche des
 			attrapeurs/attrapeuses ! Dès que le/la vif-d’or est attrapé-e, le match est terminé.</p>
@@ -106,5 +108,5 @@ include('partials/header.php');
 	</section>
 </div>
 <?php
-include('partials/header.php');
+include('partials/footer.php');
 ?>
