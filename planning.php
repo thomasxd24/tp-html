@@ -3,11 +3,12 @@
 include('partials/header.php');
 ?>
 
-	
+	<header class="headphoto">
+
+</header>
 	<div class="content">
-	<img width='100%' src="banner.png">
 		<section>
-			<h2>Planning</h2>
+			<h1>Planning</h1>
 			<article>
 				<div class="center" >
 			<table class="tabletarif">

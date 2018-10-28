@@ -1,59 +1,62 @@
 @font-face {
-  font-family: 'harry';
-  src: url('../fonts/harry.TTF');
+    font-family: 'harry';
+    src: url(../fonts/harry.TTF)
 }
 
 .tabletarif {
     border-collapse: collapse;
-    width: 100%;
+    width: 100%
 }
 
-.tabletarif td, .tabletarif th {
+.tabletarif td,
+.tabletarif th {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 8px
 }
 
-.tabletarif tr:nth-child(even){background-color: #f2f2f2;}
+.tabletarif tr:nth-child(even) {
+    background-color: #f2f2f2
+}
 
-.tabletarif tr:hover {background-color: #ddd;}
+.tabletarif tr:hover {
+    background-color: #ddd
+}
 
 .tabletarif th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
     background-color: #4CAF50;
-    color: white;
+    color: white
 }
 
 .main {
-    display:flex
+    display: flex
 }
 
-
 .photocon {
-    text-align: center
+    text-align: center;
+    margin-top: 5%
 }
 
 body {
-    padding-top: 100px; 
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
     background-color: #f7f7f7;
-    font-family: 'Niramit', sans-serif;
+    font-family: 'Niramit', sans-serif
 }
 
 .content {
-	margin-left:10%;
-	margin-right:10%;
-	margin-bottom: 5%;
-    flex:1;
+    flex: 1;
     font-size: 18px;
+    margin: 1% 10% 5%
 }
 
-.presentation{
-    font-size: 20px;
+.presentation {
+    font-size: 20px
 }
 
 .center {
@@ -61,29 +64,27 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    text-align: center;
-
+    text-align: center
 }
 
 .footer {
-/*	position: fixed;
-    bottom: 0;*/
     width: 100%;
-    background-color: black;trs
-
+    background-color: black
 }
 
 .white {
-	color:white;
+    color: white
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
     text-align: center
 }
 
 table {
-	width: 100%
+    width: 100%
 }
 
 .lien {
@@ -94,138 +95,130 @@ table {
     padding: 5px;
     background-color: #212121;
     color: white;
+    font-weight: bold;
+    text-decoration: unset
 }
 
 .social {
     position: fixed;
     top: 100px;
     right: 0;
+    z-index: 98
 }
 
 .social img {
     display: block;
-    width: 3rem;    
+    width: 3rem
 }
 
 .lien:hover {
-    border: solid;
-    border-color: #212121;
-    border-width: medium;
-    border-radius: 15px;
-    padding: 5px;
-    background-color: pink;
-    color: white;
+    background-color: white;
+    color: black;
+    transition-duration: .2s
 }
 
 aside {
-
     background-color: white;
-    flex-basis: 30%;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    }
+    flex-basis: 40%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
+}
+
 aside h1 {
     text-transform: uppercase;
     text-align: center
 }
+
 aside ul {
-    list-style-type: none;
+    list-style-type: none
 }
 
 aside li {
     padding-bottom: 7px;
     margin-right: 40px;
-    border-bottom:solid grey 1px;
+    border-bottom: solid grey 1px
 }
 
-
 .nav {
-    margin:0 0 0 0;
-    background-color:#212121;
+    margin: 0;
+    background-color: #212121;
     color: white;
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
-    width:100%;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 100%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     z-index: 100;
+    
+}
 
+.items a {
+    text-decoration: none;
 }
 
 .nav-header {
-    margin-left:2%;
+    margin-left: 2%;
     font-family: 'harry';
     float: left;
     font-size: 20px;
     text-shadow: pink 2px 2px
 }
 
-
-input[type=text] {
-    width:50%;
+input[type=text],
+input[type=tel],
+input[type=email],
+textarea {
+    width: 50%;
     margin-right: auto;
     display: block;
     padding: 0;
     height: 30px;
     outline: none;
     border: 1px solid #cdcdcd;
-    border-color: rgba(0,0,0,.15);
+    border-color: rgba(0, 0, 0, .15);
     background-color: white;
     font-size: 16px;
-    color: black;
-}
-
-textarea{
-    width:50%;
-    margin-right: auto;
-    display: block;
-    padding: 0;
-    height: 150px;
-    outline: none;
-    border: 1px solid #cdcdcd;
-    border-color: rgba(0,0,0,.15);
-    background-color: white;
-    font-size: 16px;
-    color: black;
+    color: black
 }
 
 .nav-right {
-    
-    /*font-family:'harry';*/
     font-size: 25px;
     margin-right: 2%;
-    margin-top: 30px;
-    
-
+    margin-top: 30px
 }
 
-
-.nav .items:not(:last-child){
+.nav .items:not(:last-child) {
     margin-left: 10px;
     margin-right: 10px;
     color: white;
-    border: solid 1px;
-
+    border: solid 1px
 }
+
 .flex-grid {
     display: flex;
-    justify-content: flex-end;
-    
-  }
- 
+    justify-content: flex-end
+}
 
-  @media (max-width: 767px) {
+.error {
+    border-color: red !important;
+}
 
+@media (max-width:1300px) {
+    .nav {
+        display: block;
+        position: relative;
+    }
 
     .flex-grid {
-        display: block
+        display: block;
     }
-    .items{
+
+    .items {
         display: block;
         border: none !important;
         text-align: center;
-
     }
-    .media{
+
+    .media {
         display: block !important
     }
 
@@ -233,106 +226,107 @@ textarea{
         flex-direction: column;
         align-items: stretch
     }
+}
 
-  }
-
-.nav .items:not(:last-child) , .nav div a{
+.nav .items:not(:last-child),
+.nav div a {
     margin-left: 10px;
     margin-right: 10px;
-    color: white;
-
-
+    color: white
 }
 
-a{
+.items:hover,
+.nav div a:hover {
+    background-color: white;
     color: black;
-    font-weight: bold;
-    text-decoration: unset;
-}
-
-.items:hover , .nav div a:hover{
-
-    background-color:white;
-    color:black;
+    transition-duration: .2s
 }
 
 .media-div {
     display: none;
     position: absolute;
-    top : 100%;
+    top: 100%;
     background-color: #212121;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(black, #212121 );
-
-
+    background: linear-gradient(black, #212121)
 }
 
 .media-items {
-
     margin-top: 10px;
     margin-bottom: 10px;
     display: block;
     border: solid 1px;
-    border-radius: 5px;
-
-
+    border-radius: 5px
 }
 
 .media:hover .media-div {
     display: block;
-    border : solid;
+    border: solid;
     color: black;
+    transition-duration: .2s
 }
 
 .media:hover .titleitems {
-    color:black
+    color: black
 }
 
 .media {
     display: inline-block;
-    position: relative;
-
+    position: relative
 }
 
-.masthead1 {
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white
+}
+
+select,
+input {
+    font-family: 'Niramit', sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: white
+}
+
+.headphoto {
     position: relative;
-	width: 100%;
+    width: 100%;
     height: auto;
     left: 0;
-	min-height: 35rem;
-	background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("https://images.ctfassets.net/bxd3o8b291gf/6OqVmtWM484yQKyOS2kCo0/46164b635747242f025cd926c43da212/RonWeasley_PM_B3C13M1_RonFlyingFireboltAtQuidditchPitchWithHarryWatching_Moment.jpg");
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-
+    min-height: 35rem;
+    background: url(https://images.ctfassets.net/bxd3o8b291gf/6OqVmtWM484yQKyOS2kCo0/46164b635747242f025cd926c43da212/RonWeasley_PM_B3C13M1_RonFlyingFireboltAtQuidditchPitchWithHarryWatching_Moment.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
 }
 
 .masthead {
     position: relative;
-	width: 100%;
-	height: auto;
-	min-height: 35rem;
-	background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("https://i.pinimg.com/originals/13/54/0f/13540f6b15810cec26fb91f0c47f132b.jpg");
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-
+    width: 100%;
+    height: auto;
+    min-height: 30rem;
+    background: url(https://i.pinimg.com/originals/13/54/0f/13540f6b15810cec26fb91f0c47f132b.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
 }
+
 .photo img {
     width: 45%;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
+    transition-duration: .5s;
+    transition-timing-function: ease
 }
 
 .photo img:hover {
     width: 75%;
     border: solid black 2px;
-    transition-duration: 0.5s;
+    transition-duration: .5s
 }

@@ -1,22 +1,37 @@
 <?php
 include('partials/header.php');
 ?>
-<header class="masthead1">
+<header class="headphoto">
 
 </header>
 <div class="content">
-	<form action="sendinscription.php" method="POST">
+	<h1>Inscription</h1>
+	<?php
+	include('sendinscription.php');
+	if(isset($error))
+	{
+		?>
+	<div class="alert">
+	<strong><?php echo $error; ?></strong>
+
+	</div>
+		<?php
+	}
+	if($showForm)
+	{
+		?>
+<form action="inscription.php" method="POST">
 		<p>
 			<label>Votre Nom</label>
-			<input type="text" name="namevisitor">
+			<input type="text" name="namevisitor" value="<?php echo $_POST['namevisitor'] ?>" >
 		</p>
 		<p>
 			<label>Email</label>
-			<input type="text" name="email">
+			<input type="email" name="email" value="<?php echo $_POST['email'] ?>">
 		</p>
 		<p>
 			<label>Numéro de téléphone</label>
-			<input type="text" name="tel">
+			<input type="tel" name="tel" class="" value="<?php echo $_POST['tel'] ?>">
 		</p>
 
 		<p>
@@ -58,7 +73,20 @@ include('partials/header.php');
 			<button type="submit" name="submit" class="lien" >Envoyer l'inscription</button>
 		</p>
 	</form>
+		<?php
+	}
+	?>
+	
 </div>
 <?php
+if(isset($error))
+	{
+		?>
+	<script>
+	var x = document.getElementsByName("<?php echo $errorName; ?>");
+	x[0].classList.add("error");
+	</script>
+		<?php
+	}
 include('partials/footer.php');
 ?>

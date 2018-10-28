@@ -9,11 +9,11 @@ include('partials/header.php');
 	</a>
 	
 	<a href="http://twitter.com">
-		<img src="https://image.freepik.com/free-icon/twitter-logo_318-40459.jpg">
+		<img src="https://image.flaticon.com/icons/svg/8/8800.svg">
 	</a>
 	
 </div>
-<header class="masthead1">
+<header class="headphoto">
 
 </header>
 <div class="content">

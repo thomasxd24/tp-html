@@ -5,14 +5,11 @@
 	<title>Fédération Magique Française de Quidditch</title>
 	<link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
-
-
-</style>
 </head>
 <body>
 	<nav class="nav">
 		<header class="nav-header">
-			<h1>Fédération Magique Française de Quidditch</h1>
+			<h1>Federation Magique Francaise de Quidditch</h1>
 		</header>
 		<div class="nav-right flex-grid">
 			<span class="items col"><a href="index.php">Acceuil</a></span>
